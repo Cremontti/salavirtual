@@ -61,12 +61,13 @@ p{
     text-transform: uppercase;
     margin: 10px;
 }
-.visual{
+
+.visual,.visual1{
     display: flex;
     flex-wrap: wrap;
     margin: 40px;
 }
-.visual > div iframe{
+.visual,.visua1 > div iframe{
     flex: 1 1 400px;
     margin: 10px;
 }

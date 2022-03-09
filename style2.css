@@ -62,12 +62,33 @@ p{
     margin: 10px;
 }
 
-.visual,.visual1{
+.visual{
     display: flex;
     flex-wrap: wrap;
     margin: 40px;
 }
-.visual,.visua1 > div iframe{
+.visual1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.visual2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.visual > div iframe{
+    flex: 1 1 400px;
+    margin: 10px;
+}
+
+.visual1 > div iframe{
+    flex: 1 1 400px;
+    margin: 10px;
+}
+
+.visual2 > div iframe{
     flex: 1 1 400px;
     margin: 10px;
 }
@@ -113,7 +134,6 @@ p{
     #check:checked ~ ul{
         left: 0;
     }
-    
     
 }   
 

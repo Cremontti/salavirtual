@@ -6,6 +6,7 @@
     padding:0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+   
 }
 
 nav{
@@ -55,43 +56,38 @@ h1{
     text-align: center;
     text-transform: uppercase;
     margin: 20px;
+    
 }
 p{
     text-align: center;
     text-transform: uppercase;
     margin: 10px;
+   
 }
 
 .visual{
     display: flex;
     flex-wrap: wrap;
-    margin: 40px;
+    margin: 0 auto;
+    
+   
+    
 }
-.visual1{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 40px;
-}
-.visual2{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 40px;
-}
-
+.visual > div {
+    
+    max-width: 990px;
+    margin: 0 auto;
+    align-items: center;
+    
+    
+} 
 .visual > div iframe{
     flex: 1 1 400px;
     margin: 10px;
-}
+   
+} 
 
-.visual1 > div iframe{
-    flex: 1 1 400px;
-    margin: 10px;
-}
 
-.visual2 > div iframe{
-    flex: 1 1 400px;
-    margin: 10px;
-}
 
 #check{
     display: none;
@@ -130,6 +126,7 @@ p{
         background: none;
         color: #fff;
     }
+    
     
     #check:checked ~ ul{
         left: 0;

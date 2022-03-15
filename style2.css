@@ -6,7 +6,6 @@
     padding:0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-   
 }
 
 nav{
@@ -21,6 +20,7 @@ nav .logo img{
     margin-left: -40px;
     width: 140px;
     height: 75px;
+   
 }
 
 nav ul{
@@ -51,11 +51,16 @@ nav ul .active{
     float: right;
     display: none;
 }
+.container{
+    background-color: #9bb973;
+    background-size: cover;
+    background-repeat: repeat;
+}
 
-h1{
-    text-align: center;
+h1{    
     text-transform: uppercase;
-    margin: 20px;
+    padding-top: 40px;
+    text-align: center;
     
 }
 p{
@@ -69,25 +74,18 @@ p{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    
-   
-    
 }
 .visual > div {
     
     max-width: 990px;
     margin: 0 auto;
     align-items: center;
-    
-    
 } 
 .visual > div iframe{
     flex: 1 1 400px;
     margin: 10px;
    
 } 
-
-
 
 #check{
     display: none;

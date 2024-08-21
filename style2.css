@@ -55,6 +55,7 @@ nav ul .active{
     background-color: #9bb973;
     background-size: cover;
     background-repeat: repeat;
+    height: calc(100vh - 75px);
 }
 
 h1{    

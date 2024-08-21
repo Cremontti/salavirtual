@@ -126,7 +126,12 @@ p{
         color: #fff;
     }
     
-    
+    .container{
+    background-color: #9bb973;
+    background-size: cover;
+    background-repeat: repeat;
+    height: calc(100vh - 75px);
+}
     #check:checked ~ ul{
         left: 0;
     }

@@ -130,7 +130,7 @@ p{
     background-color: #9bb973;
     background-size: cover;
     background-repeat: repeat;
-    height: calc(120vh - 75px);
+    height: calc(100vh - 75px);
 }
     #check:checked ~ ul{
         left: 0;
